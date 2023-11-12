@@ -6,27 +6,30 @@ import AboutMe from "./pages/AboutMe";
 import Portfolio from "./pages/Portfolio";
 import Contact from "./pages/Contact";
 import Resume from "./pages/Resume";
+import './index.css';
 
 function App() {
   const [ currentPage, setCurrentPage ] = useState('home');
   function onChange() {
     if (currentPage === 'home') {
-      return <AboutMe/>
+      return <AboutMe />
     } else if (currentPage === 'portfolio') {
-      return <Portfolio/>
+      return <Portfolio />
     } else if (currentPage === 'contact') {
-      return <Contact/>
+      return <Contact />
     } else if (currentPage === 'resume') {
-      return <Resume/>
+      return <Resume />
     }
   }
   return (
-    <div className="App">
+    <body className="App">
+    <div >
      <Navbar setCurrentPage={setCurrentPage}/>
      <Header/>
      {onChange()}
      <Footer/>
     </div>
+    </body>
   );
 }
 
