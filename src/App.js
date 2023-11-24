@@ -23,14 +23,12 @@ function App() {
     }
   }
   return (
-    <body className="App">
-    <div >
-     <Navbar setCurrentPage={setCurrentPage}/>
-     <Header/>
-     {onChange()}
-     <Footer/>
-    </div>
-    </body>
+      <div className="App" >
+      <Navbar setCurrentPage={setCurrentPage}/>
+      <Header/>
+        {onChange()}
+      <Footer/>
+      </div>
   );
 }
 

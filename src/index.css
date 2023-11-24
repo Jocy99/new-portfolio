@@ -5,13 +5,21 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: rgb(229, 183, 232);
+  background-color: #5f7d8b;
 }
 
 nav {
   background-color: rgb(245, 50, 7);
   display: flex;
   justify-content: space-between;
+}
+
+header {
+  margin: 4%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
 }
 
 code {
@@ -29,10 +37,49 @@ img {
 }
 
 footer {
-  position: fixed;
+  /* position: fixed; */
   bottom: 0;
   width: 100%;
   text-align: center;
   padding: 10px;
 }
-    
+
+/* .card-img-top {
+
+} */
+
+.aboutMe {
+  padding: 4%;
+  background-color: #ffffffdb;
+  border-radius: 40px;
+  display: block;
+  text-align: center;
+}
+
+.projectContainer {
+  padding: 4%;
+  background-color: #ffffffdb;
+  border-radius: 40px;
+  display: block;
+  text-align: center;
+}
+
+.contact {
+  padding: 4%;
+  background-color: #ffffffdb;
+  border-radius: 40px;
+  display: block;
+  text-align: center;
+}
+
+.resume {
+  padding: 4%;
+  background-color: #ffffffdb;
+  border-radius: 40px;
+  display: block;
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+}

@@ -1,13 +1,20 @@
-import React from 'react'
+import React from "react";
 
 const Resume = () => {
   return (
-    <div>
-    <br></br>
-    <h6> Click the link for my resume! </h6>
-    <a href="../../public/JocelynBenitez_FullStackDeveloper_Resume.pdf" download="JocelynBenitez_FullStackDeveloper_Resume.pdf">Download my Resume</a>
-    <br></br>
-    <br></br>
+    <div className="resume">
+      <h2> Resume </h2>
+      <br></br>
+      <br></br>
+      <h6> Click the link below to download my resume! </h6>
+      <a
+        href="../../public/JocelynBenitez_FullStackDeveloper_Resume.pdf"
+        download="JocelynBenitez_FullStackDeveloper_Resume.pdf"
+      >
+        Download my Resume
+      </a>
+      <br></br>
+      <br></br>
 
       <h6>Front-End:</h6>
       <ul>
@@ -26,7 +33,7 @@ const Resume = () => {
         <li>MongoDB</li>
         <li>MySQL</li>
       </ul>
-      </div>
+    </div>
   );
 };
 
