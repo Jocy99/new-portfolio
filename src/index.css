@@ -33,7 +33,7 @@ code {
 
 img {
     width: 200px;
-    height: 150px;
+    height: 300px;
     border-radius: 25%;
     overflow: hidden;
     border: 3px solid #fff;
@@ -48,37 +48,43 @@ footer {
   padding: 10px;
 }
 
-/* .card-img-top {
+.profileImg {
+  width: 200px;
+  height: 150px;
+  border-radius: 25%;
+  overflow: hidden;
+  border: 3px solid #fff;
+  object-fit: cover;
+}
 
-} */
-
+/* about me page container */
 .aboutMe {
   padding: 4%;
-  background-color: #ffffffdb;
+  background-color: #d1e6e8;
   border-radius: 40px;
   display: block;
   text-align: center;
 }
-
+/* projects info container */
 .projectContainer {
   padding: 4%;
-  background-color: #ffffffdb;
+  background-color: #d1e6e8;
   border-radius: 40px;
   display: block;
   text-align: center;
 }
-
+/* contact page container */
 .contact {
   padding: 4%;
-  background-color: #ffffffdb;
+  background-color: #d1e6e8;
   border-radius: 40px;
   display: block;
   text-align: center;
 }
-
+/* in charge of resume container */
 .resume {
   padding: 4%;
-  background-color: #ffffffdb;
+  background-color: #d1e6e8;
   border-radius: 40px;
   display: block;
   text-align: center;

@@ -5,7 +5,7 @@ const AboutMe = () => {
     <div className="aboutMe">
       <h2>About Me</h2>
       <br></br>
-      <img src="https://i.imgur.com/tudr8rj.jpg" alt="Jocelyn's headshot" />
+      <img src="https://i.imgur.com/tudr8rj.jpg" alt="Jocelyn's headshot" className="profileImg" />
       <br></br>
       <br></br>
 
