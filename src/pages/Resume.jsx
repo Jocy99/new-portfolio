@@ -1,4 +1,5 @@
 import React from "react";
+import resume from "../assets/JocelynBenitez_FullStackDeveloper_Resume.pdf";
 
 const Resume = () => {
   return (
@@ -7,12 +8,7 @@ const Resume = () => {
       <br></br>
       <br></br>
       <h6> Click the link below to download my resume! </h6>
-      <a
-        href="../../public/JocelynBenitez_FullStackDeveloper_Resume.pdf"
-        download="JocelynBenitez_FullStackDeveloper_Resume.pdf"
-      >
-        Download my Resume
-      </a>
+      <a href={ resume } download { ... resume }> Download my Resume! </a>
       <br></br>
       <br></br>
 

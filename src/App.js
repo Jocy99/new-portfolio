@@ -26,7 +26,9 @@ function App() {
       <div className="App" >
       <Navbar setCurrentPage={setCurrentPage}/>
       <Header/>
+      <main>
         {onChange()}
+      </main>
       <Footer/>
       </div>
   );
